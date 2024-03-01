@@ -20,15 +20,16 @@
     <div class="header-logo-container">
       <a href="/">
         <img 
-          src="{% static 'images/header-logo.svg' %}"
+          src="{% static 'images/dog.collector.png' %}"
           alt="The Dog Collector Logo"
         >
       </a>
     </div>
     <nav>
       <ul>
-        <li><a href="/dogs">All Dogs</a></li>
-        <li><a href="/about">About</a></li>
+        <li><a href="{% url 'dog-index' %}">All Dogs</a></li>
+        <li><a href="{% url 'dog-create' %}">Add a Dog</a></li>
+        <li><a href="{% url 'about' %}">About</a></li>
       </ul>
     </nav>
   </header>
