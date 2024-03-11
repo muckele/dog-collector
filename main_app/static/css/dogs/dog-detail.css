@@ -89,7 +89,7 @@
   font-size: var(--font-l);
 }
 
-.cat-details p {
+.dog-details p {
   font-size: var(--font-reg);
   margin: 5px 0;
 }
@@ -188,7 +188,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .cat-container {
+  .dog-container {
     padding: 35px 30px;
     flex-direction: row;
     align-items: center;
